@@ -61,8 +61,8 @@ CREATE TABLE IF NOT EXISTS latest_status (
 
 ### 4. 创建 Worker 服务
 - 左侧菜单选择“Workers & Pages” → “Workers” → “创建 Worker”。
-- 名称自定义，如 `monitor-worker`。
-- 进入 Worker 编辑页面，将 `worker.js` 文件内容全部粘贴到编辑器中，可按照参数配置(#参数配置)修改必要参数
+- 名称自定义，如 `monitor-worker`
+- 进入 Worker 编辑页面，将 `worker.js` 文件内容全部粘贴到编辑器中，可按照[参数配置](#参数配置)修改必要参数
 
 ### 5. 绑定 KV 和 D1 到 Worker
 - 在 Worker 编辑页面，点击左侧“设置” → “绑定” → “KV 命名空间”，选择刚才创建的 `monitorkv`，变量名填写 `monitorkv`。
